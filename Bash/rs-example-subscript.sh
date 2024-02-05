@@ -1,6 +1,6 @@
 #!/bin/bash
-# NAME: BASH script example - subscript
-# SYNOPSIS: Example of Bash script as a sub-script for another script
+# NAME: Bash script example - subscript
+# SYNOPSIS: Returns data in JSON format for use in a sub-script
 # ID: rs-bash-subscript-example
 # TAGS: Example "RunScript Team"
 
@@ -10,7 +10,7 @@ prijmeni1="Novak"
 vek1=30
 
 jmeno2="Eva"
-prijmeni2="Svobodova"
+prijmeni2="Svobodová"
 vek2=25
 
 # Ruční sestavení JSON

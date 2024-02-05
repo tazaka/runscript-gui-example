@@ -2,13 +2,12 @@
 #
 # RunScript GUI Info
 #
-# NAME: BASH script example
-# SYNOPSIS: Krátky popis funkce
-# DESCRIPTION: Dlouhý popis funkce
-# AUTHOR: Martin Špánek
-# VERSION: 1.0.0
-# WARNING: Toto je varovná zpráva.
-# DANGER: Toto je danger zpráva
+# NAME: Bash script example
+# SYNOPSIS: Example Bash script for RunScript GUI with commander library usage
+# AUTHOR: RunScript Team
+# VERSION: 1.0
+# WARNING: This is a warning message.
+# DANGER: This is a danger message.
 # TAGS: Example "RunScript Team"
 
 # init variables
