@@ -14,7 +14,7 @@
 <#PSScriptInfo 
 .VERSION 1.10
 .AUTHOR RunScript Team  
-.TAGS Example "RunScript Team"
+.TAGS Example "RunScript Team" SubScript
 #>
 
 

@@ -2,7 +2,7 @@
 # NAME: Bash script example - subscript
 # SYNOPSIS: Returns data in JSON format for use in a sub-script
 # ID: rs-bash-subscript-example
-# TAGS: Example "RunScript Team"
+# TAGS: Example "RunScript Team" SubScript
 
 # Definice osob
 jmeno1="Jan"

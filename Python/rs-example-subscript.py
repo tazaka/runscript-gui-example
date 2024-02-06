@@ -2,7 +2,7 @@
 NAME: Python script example - subscript
 SYNOPSIS: Returns data in JSON format for use in a sub-script
 ID: rs-python-subscript-example
-TAGS: Example "RunScript Team"
+TAGS: Example "RunScript Team" SubScript
 """
 import json
 

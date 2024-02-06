@@ -6,7 +6,7 @@
 # VERSION: 1.0
 # WARNING: This script includes a warning message for users to proceed with caution.
 # DANGER: This script may perform actions that could potentially be harmful if not used carefully.
-# TAGS: Example, "RunScript Team"
+# TAGS: Example "RunScript Team"
 
 
 # init variables

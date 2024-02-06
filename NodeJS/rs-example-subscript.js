@@ -4,7 +4,7 @@
  * DESCRIPTION: Generates a table of example data in JSON format for use in another script as a select subscript parameter.
  * AUTHOR: RunScript Team
  * VERSION: 1.0.0
- * TAGS: Example "RunScript Team"
+ * TAGS: Example "RunScript Team" SubScript
  * ID: rs-js-subscript-example
  * ID_KEY: login
  */
