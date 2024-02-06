@@ -1,57 +1,63 @@
 #!/bin/bash
-#
-# RunScript GUI Info
-#
-# NAME: Bash script example
-# SYNOPSIS: Example Bash script for RunScript GUI with commander library usage
+
+# NAME: Bash Script Example
+# SYNOPSIS: Example Bash script for demonstrating RunScript GUI functionality.
 # AUTHOR: RunScript Team
 # VERSION: 1.0
-# WARNING: This is a warning message.
-# DANGER: This is a danger message.
-# TAGS: Example "RunScript Team"
+# WARNING: This script includes a warning message for users to proceed with caution.
+# DANGER: This script may perform actions that could potentially be harmful if not used carefully.
+# TAGS: Example, "RunScript Team"
+
 
 # init variables
 a_val=""
 b_val=""
 c_flag=0
 
-# Zpracování parametrů
+
 while getopts ":a:b:c" opt; do
   case $opt in
     a)
+      # Store the value provided with the -a switch in the 'a_val' variable.
       a_val=$OPTARG
-      # name: Muj prvni parametr
-      # description: Muj popis dasdsa dsadsa dasdas {id:rs-bash-subscript-example}
+      # name: First required argument
+      # description: Argument with default value "hello". It serves as an example of how to use this script.
       # type: string
       # required: true
-      # default: ahoj
+      # default: hello
       ;;
     b)
+      # Store the value provided with the -b switch in the 'b_val' variable.
       b_val=$OPTARG
-      # name: Muj druhý parametr
-      # type: string     
+      # name: Substring argument
+      # description: This parameter is used for passing a substring. It includes a long description and an ID for subscript selection. {id:rs-bash-subscript-example}
+      # type: string
       ;;
     c)
+      # Set the 'c_flag' variable to 1 if the -c switch is used.
       c_flag=1
+      # name: Boolean argument
       # type: bool
-      # default: true
+      # default: false
       ;;
     \?)
-      echo "Neplatný přepínač: -$OPTARG" >&2
+      # Inform the user about an invalid switch and terminate the script.
+      echo "Invalid option: -$OPTARG" >&2
       exit 1
       ;;
     :)
-      echo "Přepínač -$OPTARG vyžaduje hodnotu" >&2
+      # Inform the user that the switch requires a value and terminate the script.
+      echo "Option -$OPTARG requires a value." >&2
       exit 1
       ;;
   esac
 done
 
-
-echo "a_val = ${a_val}" 
-echo "b_val = ${b_val}"
-if [ "$c_flag" -eq 1 ]; then
-  echo "c_val = true" 
+# Print the values set by the switches.
+echo "Value of a: ${a_val:-hello}"  # Uses the default value "hello" if a_val is unset
+echo "Value of b: ${b_val}"
+if [ "${c_flag}" -eq 1 ]; then
+  echo "c_flag is set to true"
 else
-  echo "c_val = false" 
+  echo "c_flag is set to false"
 fi
