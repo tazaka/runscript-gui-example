@@ -10,10 +10,10 @@
 const { program, Option } = require("commander");
 
 program
-  .option("-dp, --danger-param <type>", "Set the danger level parameter{danger}", "default")
+  .option("-dp, --danger-param <type...>", "Set the danger level parameter{danger}", "default")
   .option("-wp, --warning-param <type>", "Set the warning level parameter{warning}")
   .option("-lp, --long-param <description>", "Set a parameter with an extended description")
-  .option("-js, --javascript-script <identifier>", "Specify a JavaScript snippet with its ID{id:rs-js-subscript-example}")
+  .option("-js, --javascript-script <identifier...>", "Specify a JavaScript snippet with its ID{id:rs-js-subscript-example}")
   .option("-ps, --powershell-script <identifier>", "Specify a PowerShell script with its ID{id:rs-ps-subscript-example}")
   .option("-py, --python-script [identifier]", "Specify a Python script with its ID, optional{id:rs-python-subscript-example}")
   .option("-bs, --bash-script [identifier]", "Specify a Bash script with its ID, optional{id:rs-bash-subscript-example}")
