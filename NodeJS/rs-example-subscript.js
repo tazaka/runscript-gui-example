@@ -7,6 +7,7 @@
  * TAGS: Example "RunScript Team" SubScript
  * ID: rs-js-subscript-example
  * ID_KEY: login
+ * FLAGS: visualize_json
  */
 
 var data = [
@@ -19,6 +20,15 @@ var data = [
   { login: "anna", jmeno: "Anna", email: "anna@email.com", telefon: "789-012-3456" },
 ];
 
-console.log("RS-EXPORT-TABLE-START");
+var data2 = [
+  { login: "martin", jmeno: "Martin", email: "martin@email.com", telefon: "123-456-7890" },
+  { login: "petra", jmeno: "Petra", email: "petra@email.com", telefon: "234-567-8901" }
+];
+
+console.log("RS-EXPORT-TABLE-START:moje tabulka");
 console.log(data);
+console.log("RS-EXPORT-TABLE-END");
+
+console.log("RS-EXPORT-TABLE-START: moje dalsi tabulka");
+console.log(data2);
 console.log("RS-EXPORT-TABLE-END");
