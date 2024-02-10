@@ -20,8 +20,8 @@
 
  # Vytvoření objektu
  $objekt = @(
-    [PSCustomObject]@{Jmeno = 'Jan'; Prijmeni = 'Novak'; Vek = 22},
-    [PSCustomObject]@{Jmeno = 'Eva'; Prijmeni = 'Svobodova'; Vek = 25}
+    [PSCustomObject]@{Jmeno = 'Jan'; Prijmeni = 'Novak'; Věk = 22},
+    [PSCustomObject]@{Jmeno = 'Eva'; Prijmeni = 'Svobodova'; Věk = 25}
 )
 
 # Převedení objektu na JSON

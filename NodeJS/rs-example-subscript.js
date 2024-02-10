@@ -7,7 +7,6 @@
  * TAGS: Example "RunScript Team" SubScript
  * ID: rs-js-subscript-example
  * ID_KEY: login
- * FLAGS: visualize_json
  */
 
 var data = [
