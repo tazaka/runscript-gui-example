@@ -61,6 +61,7 @@ foreach ($a in $ParamListMulti) {
  Write-Host "> $($a) <"
 }
 #$ParamListMulti | ForEach-Object { "Good $_!" }
-Start-Sleep -Seconds 1
+Start-Sleep -Seconds 3
 Write-Host "lko"
-#$Server = Read-Host -Prompt 'Input your server  name'
+$Server = Read-Host -Prompt 'Input your server  name'
+Write-Host $Server
