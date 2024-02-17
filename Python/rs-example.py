@@ -19,9 +19,9 @@ parser = argparse.ArgumentParser(
 )
 
 # Adding arguments
-parser.add_argument("firstname", type=str, default="Martin1", help="Enter the first name")
-parser.add_argument("lastname", type=str, default="Spanek", help="Enter the last name {id:test-substring-js}")
-parser.add_argument("--string", type=str, required=True, default="Martin", help="String example")
+parser.add_argument("firstname", type=str, default="Arthur", help="Enter the first name")
+parser.add_argument("lastname", type=str, default="Dent", help="Enter the last name {id:rs-js-subscript-example}")
+parser.add_argument("--string", type=str, required=True, default="Don't panic", help="String example")
 parser.add_argument("--integer", type=int,default=42 , help="Integer example")
 parser.add_argument("--float", type=float, help="Floating point number example.")
 parser.add_argument("--file", type=argparse.FileType('r'), help="Path to the file for reading")

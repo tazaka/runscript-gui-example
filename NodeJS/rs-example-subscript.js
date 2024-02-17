@@ -28,10 +28,10 @@ var data2 = [
   { login: "petra", jmeno: "Petra", email: "petra@email.com", telefon: "234-567-8901" }
 ];
 
-console.log("RS-EXPORT-TABLE-START:moje tabulka");
+console.log("RS-EXPORT-TABLE-START:users");
 console.log(data);
 console.log("RS-EXPORT-TABLE-END");
 
-console.log("RS-EXPORT-TABLE-START: moje dalsi tabulka");
+console.log("RS-EXPORT-TABLE-START:groups");
 console.log(data2);
 console.log("RS-EXPORT-TABLE-END");

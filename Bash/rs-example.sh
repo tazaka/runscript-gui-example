@@ -2,6 +2,7 @@
 
 # NAME: Bash Script Example
 # SYNOPSIS: Example Bash script for demonstrating RunScript GUI functionality.
+# DESCRIPTION: This text serves as an example of an extensive comment embedded within a Bash script, aimed at providing users with a detailed description and explanation of the script's functionality. The comment delves into the explanation of various sections of the script, the methods, and commands employed, and how these elements collaborate to achieve the script's final objective. It includes practical usage examples, tips for performance optimization, and suggestions for potential enhancements or modifications to cater to specific user requirements. Beyond technical aspects, the comment may also encompass contextual information, such as the rationale behind the script's creation, its benefits, and potential real-world applications. The goal is to equip the reader with a deep understanding of the script, enable easy modification and adaptation of the script for their own projects, and promote the adoption of best practices in scripting.
 # AUTHOR: RunScript Team
 # VERSION: 1.0
 # WARNING: This script includes a warning message for users to proceed with caution.
